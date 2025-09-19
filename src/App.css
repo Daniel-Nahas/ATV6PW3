@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  /* Seções separadas */
+  .section {
+    margin: 40px 0; /* espaçamento entre cada bloco */
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Inputs */
+  form input {
+    display: block;           /* coloca um embaixo do outro */
+    width: 80%;               /* ocupa boa largura */
+    margin: 10px auto;        /* espaçamento entre inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  form button, 
+  form input[type="submit"],
+  button {
+    background: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover,
+  form input[type="submit"]:hover {
+    background: #357abd;
+  }
+  
+  /* Espaço maior entre os eventos */
+  .eventos-container {
+    display: flex;
+    flex-direction: column
+  
