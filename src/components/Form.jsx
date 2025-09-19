@@ -4,14 +4,14 @@ import '../index.css';
 
 function Form() {
   const [name, setName] = useState('');
-  const [password, setPassword] = useState('');
+  const [ano, setAno] = useState('');
 
   function cadastrarUsuario(event) {
     event.preventDefault();
-    console.log(`User: ${name} cadastrado com a senha: ${password}`);
+    console.log(`Filme: ${name} cadastrado com ano de lançamento: ${ano}`);
     console.log("Cadastrou com Sucesso!!");
 
-    alert(`Filme ${name} cadastrado com sucesso!`);
+    alert(`Filme ${name} lançamento ${ano} foi cadastrado com sucesso!`);
   }
 
   return (
@@ -36,7 +36,7 @@ function Form() {
             id="ano"
             name="ano"
             placeholder="Digite ano de LANÇAMENTO do Filme:"
-            onChange={(event) => setPassword(event.target.value)}
+            onChange={(event) => setAno(event.target.value)}
           />
         </div>
 
